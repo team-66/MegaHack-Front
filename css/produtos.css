@@ -55,15 +55,11 @@
     display: flex;
 }
 
-.total-produtos section.content form b {
-    display: flex;
-}
-
 .total-produtos section.content a {
     display: flex;
     align-items: center;
     margin-top: 40px;
-    color: #41414d;
+    color: #52525e;
     font-size: 18px;
     text-decoration: none;
     font-weight: 500;
@@ -80,21 +76,7 @@
     opacity: 0.8;
 }
 
-body {
-    font: 400 14px Sans-Serif; /*sem ponto depois da letra*/
-    -webkit-font-smoothing: antialiased; /*melhora o visual da font*/
-    background: #f0f0f5;
-}
-
-input,button, textarea { /*por padrão não pega o css do body*/ 
-    font: 400 18px Sans-Serif;
-}
-
-button {
-    cursor: pointer;
-}
-
-.btn {
+.total-produtos section.content form a {
     width: 60%;
     height: 60px;
     background: #e02041;
@@ -109,10 +91,23 @@ button {
     font-size: 18px;
     line-height: 60px;
     transition: filter 0.2s; /*quando o mouser passar por cima do botão mudar em tantos milésimos de segundos*/
-    margin-left: 08px; /*separar um pouco pela direita*/
+    margin-left: 08px;
 }
-
 
 .btn:hover {
     filter: brightness(90%);
+}
+
+body {
+    font: 400 14px Sans-Serif; /*sem ponto depois da letra*/
+    -webkit-font-smoothing: antialiased; /*melhora o visual da font*/
+    background: #f0f0f5;
+}
+
+input,button, textarea { /*por padrão não pega o css do body*/ 
+    font: 400 18px Sans-Serif;
+}
+
+button {
+    cursor: pointer;
 }
